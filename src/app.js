@@ -16,7 +16,8 @@ import alunoRoutes from "./routes/alunoRoutes";
 import photoRoutes from "./routes/photoRoutes";
 
 const whiteList = [
-  'http://34.151.235.119'
+  'https://react-consumption-api.vercel.app',
+  'http://localhost:3000'
 ];
 
 const corsOptions = {
