@@ -15,7 +15,9 @@ import tokeRoutes from "./routes/tokenRoutes";
 import alunoRoutes from "./routes/alunoRoutes";
 import photoRoutes from "./routes/photoRoutes";
 
-const whiteList = ["http://react2.34.151.235.119", "http://localhost:3000"];
+const whiteList = [
+  'http://34.151.235.119'
+];
 
 const corsOptions = {
   origin: function (origin, callback) {
